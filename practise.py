@@ -1,10 +1,19 @@
-# list_of_words = ["This", "is","a","list"]
+import random
 
-# items = []
 
-# items = [i[0].upper() for i in list_of_words]
+random_list = []
 
-# print(items)
+# for i in range(10) :
+#   random_list.append(random.randint(0, 100))
 
-even = [num for num in range(20) if num % 2 == 0]
-print(even)
+[random_list.append(random.randint(0, 100)) for j in range(10) ]
+
+for i in random_list :
+  if i % 7 == 0 :
+    continue
+  elif i == 315 :
+    break
+
+  print(i)
+
+# print(random_list)

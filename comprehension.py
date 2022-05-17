@@ -1,10 +1,9 @@
-# list_of_words = ["This", "is","a","list"]
+import random
 
-# items = []
 
-# items = [i[0].upper() for i in list_of_words]
+random_list = []
 
-# print(items)
+[random_list.append(random.randint(0, 100)) for i in range(10)]
 
-even = [num for num in range(20) if num % 2 == 0]
-print(even)
+squared = [x ** 3 for x in random_list if x % 3 == 0]
+print(squared)
