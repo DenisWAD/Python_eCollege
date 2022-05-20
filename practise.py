@@ -1,27 +1,9 @@
-# import random
+my_list = ["life", "answer", 42, 0]
 
+for thing in my_list:
+    if thing == 0:
+        my_list[thing] = "universe"
+    elif thing == 42:
+        my_list[1] = "everything"
 
-# random_list = []
-
-# # for i in range(10) :
-# #   random_list.append(random.randint(0, 100))
-
-# [random_list.append(random.randint(0, 100)) for j in range(10) ]
-
-# for i in random_list :
-#   if i % 7 == 0 :
-#     continue
-#   elif i == 315 :
-#     break
-
-#   print(i)
-
-# # print(random_list)
-
-i = 0
-
-
-eg = [1, 2, 3]
-for egs in eg :
-  print(eg[i])
-  i += 1
+print(my_list)
