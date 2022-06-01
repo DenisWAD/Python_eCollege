@@ -1,9 +1,5 @@
-with open("dataFile/sampleText.txt") as file :
-    file_line = file.readline()
+def get_names(*names) :
+    for i in names :
+        print("Hello there your name is ", i)
 
-    while file_line :
-        print(file_line)
-        file_line = file.readline()
-
-
-     
+get_names("Denis", "Alan", "Derple", "Bob")
