@@ -1,5 +1,17 @@
-def get_names(*names) :
-    for i in names :
-        print("Hello there your name is ", i)
+def get_first_capital(some_string) :
+    capital = None
 
-get_names("Denis", "Alan", "Derple", "Bob")
+    for i in some_string :
+        if i.upper() == i and i != " " :
+            capital = i
+            break
+
+    if capital == None :
+        return "No capital was found"
+    else :
+        return "Capital letter found. It is: " + capital
+
+
+first_capital = get_first_capital("denis murrAy")
+
+print(first_capital)
