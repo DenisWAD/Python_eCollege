@@ -1,7 +1,5 @@
-import sys
+import datetime
 
-old = sys.stdout
+bday = datetime.date(1995, 3, 6).strftime("%a %-d %b %Y")
 
-sys.stdout = open("txtfile.txt", "w")
-
-print("This is output to a new text file")
+print(bday)
