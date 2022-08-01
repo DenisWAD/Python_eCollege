@@ -1,5 +1,12 @@
-import datetime
+# import datetime
 
-bday = datetime.date(1995, 3, 6).strftime("%a %-d %b %Y")
+# today_datetime = datetime.datetime.now()
 
-print(bday)
+# weekday = datetime.date.weekday(today_datetime)
+
+# print(weekday)
+
+a = 10
+b = 20
+
+print(int(a) / int(b))
