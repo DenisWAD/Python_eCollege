@@ -10,6 +10,10 @@ requests = []
 
 # Code to read in command line arguments goes here.......
 
+def read_commandline () :
+    """
+    Takes in command line args, returns them
+    """
 
 
 
